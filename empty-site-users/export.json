@@ -9919,6 +9919,37 @@
   "tasks": {
     "tasks": [
       {
+        "id": "29a3e9b8-7930-4147-a5ae-089ec162da88",
+        "name": "Forth Bridge illustrations 1886-1887 - 4",
+        "description": null,
+        "type": "crowdsourcing-canvas-task",
+        "subject": "urn:madoc:canvas:7",
+        "status": 2,
+        "status_text": "In progress",
+        "state": {
+          "approvalsRequired": 20
+        },
+        "created_at": 1602512752495,
+        "parent_task": "8b734bdb-6cf6-4f08-9143-2e4e1c1034da",
+        "parameters": [],
+        "creator_id": "urn:madoc:user:undefined",
+        "creator_name": "Madoc TS",
+        "assignee_id": null,
+        "assignee_is_service": null,
+        "assignee_name": null,
+        "context": [
+          "urn:madoc:site:1"
+        ],
+        "events": [
+          "madoc-ts.status.3"
+        ],
+        "modified_at": 1602512760193,
+        "root_task": "4bacd0a4-0ccc-4100-8caa-39728ea309bb",
+        "subject_parent": null,
+        "delegated_owners": null,
+        "delegated_task": null
+      },
+      {
         "id": "4bacd0a4-0ccc-4100-8caa-39728ea309bb",
         "name": "Project with model",
         "description": "A test project with a model",
@@ -9943,12 +9974,14 @@
         "events": null,
         "modified_at": 1602195876305,
         "root_task": null,
-        "subject_parent": null
+        "subject_parent": null,
+        "delegated_owners": null,
+        "delegated_task": null
       },
       {
         "id": "8c7c82db-75b6-4815-99ca-238a6a0d3da2",
         "name": "My custom collection",
-        "description": "",
+        "description": null,
         "type": "crowdsourcing-collection-task",
         "subject": "urn:madoc:collection:139",
         "status": 1,
@@ -9960,7 +9993,7 @@
         "creator_id": "urn:madoc:user:undefined",
         "creator_name": "Madoc TS",
         "assignee_id": null,
-        "assignee_is_service": false,
+        "assignee_is_service": null,
         "assignee_name": null,
         "context": [
           "urn:madoc:site:1"
@@ -9968,12 +10001,52 @@
         "events": null,
         "modified_at": 1602511518421,
         "root_task": "4bacd0a4-0ccc-4100-8caa-39728ea309bb",
-        "subject_parent": null
+        "subject_parent": null,
+        "delegated_owners": null,
+        "delegated_task": null
+      },
+      {
+        "id": "17d0e975-a024-4cf3-b10d-06d4245d0709",
+        "name": "User contributions to \"Forth Bridge illustrations 1886-1887 - 1\"",
+        "description": null,
+        "type": "crowdsourcing-task",
+        "subject": "urn:madoc:canvas:4",
+        "status": 2,
+        "status_text": "Submitted",
+        "state": {
+          "reviewTask": "fa677041-5ae4-413a-b52e-91b8116f9a48",
+          "revisionId": "1f1ede5e-2291-4d8d-abaf-093ef59d53c4"
+        },
+        "created_at": 1602528476918,
+        "parent_task": "cd441115-9725-40ff-a733-34dc09cc003d",
+        "parameters": [
+          "9cfeb2e1-1c8e-4984-b2e3-bfbc3aa7bfa6",
+          null,
+          "canvas"
+        ],
+        "creator_id": "urn:madoc:user:3",
+        "creator_name": "Madoc TS",
+        "assignee_id": "urn:madoc:user:3",
+        "assignee_is_service": null,
+        "assignee_name": "Transcriber",
+        "context": [
+          "urn:madoc:site:1"
+        ],
+        "events": [
+          "madoc-ts.status.-1",
+          "madoc-ts.status.2",
+          "madoc-ts.status.3"
+        ],
+        "modified_at": 1602528477349,
+        "root_task": "4bacd0a4-0ccc-4100-8caa-39728ea309bb",
+        "subject_parent": "urn:madoc:manifest:2",
+        "delegated_owners": null,
+        "delegated_task": "fa677041-5ae4-413a-b52e-91b8116f9a48"
       },
       {
         "id": "8b734bdb-6cf6-4f08-9143-2e4e1c1034da",
         "name": "Forth Bridge illustrations 1886-1887",
-        "description": "",
+        "description": null,
         "type": "crowdsourcing-manifest-task",
         "subject": "urn:madoc:manifest:2",
         "status": 1,
@@ -9987,7 +10060,7 @@
         "creator_id": "urn:madoc:user:undefined",
         "creator_name": "Madoc TS",
         "assignee_id": null,
-        "assignee_is_service": false,
+        "assignee_is_service": null,
         "assignee_name": null,
         "context": [
           "urn:madoc:site:1"
@@ -9997,12 +10070,46 @@
         ],
         "modified_at": 1602511518626,
         "root_task": "4bacd0a4-0ccc-4100-8caa-39728ea309bb",
-        "subject_parent": "urn:madoc:collection:139"
+        "subject_parent": "urn:madoc:collection:139",
+        "delegated_owners": null,
+        "delegated_task": null
+      },
+      {
+        "id": "fa677041-5ae4-413a-b52e-91b8116f9a48",
+        "name": "Review of \"User contributions to \"Forth Bridge illustrations 1886-1887 - 1\"\"",
+        "description": null,
+        "type": "crowdsourcing-review",
+        "subject": "urn:madoc:canvas:4",
+        "status": 1,
+        "status_text": "accepted",
+        "state": {},
+        "created_at": 1602528477229,
+        "parent_task": "cd441115-9725-40ff-a733-34dc09cc003d",
+        "parameters": [
+          "17d0e975-a024-4cf3-b10d-06d4245d0709",
+          "canvas"
+        ],
+        "creator_id": "urn:madoc:user:undefined",
+        "creator_name": "Madoc TS",
+        "assignee_id": "urn:madoc:user:2",
+        "assignee_is_service": null,
+        "assignee_name": "Reviewer",
+        "context": [
+          "urn:madoc:site:1"
+        ],
+        "events": [
+          "madoc-ts.created"
+        ],
+        "modified_at": 1602528477754,
+        "root_task": "4bacd0a4-0ccc-4100-8caa-39728ea309bb",
+        "subject_parent": "urn:madoc:manifest:2",
+        "delegated_owners": null,
+        "delegated_task": null
       },
       {
         "id": "cd441115-9725-40ff-a733-34dc09cc003d",
         "name": "Forth Bridge illustrations 1886-1887 - 1",
-        "description": "",
+        "description": null,
         "type": "crowdsourcing-canvas-task",
         "subject": "urn:madoc:canvas:4",
         "status": 2,
@@ -10016,7 +10123,7 @@
         "creator_id": "urn:madoc:user:undefined",
         "creator_name": "Madoc TS",
         "assignee_id": null,
-        "assignee_is_service": false,
+        "assignee_is_service": null,
         "assignee_name": null,
         "context": [
           "urn:madoc:site:1"
@@ -10026,86 +10133,22 @@
         ],
         "modified_at": 1602511519389,
         "root_task": "4bacd0a4-0ccc-4100-8caa-39728ea309bb",
-        "subject_parent": null
+        "subject_parent": null,
+        "delegated_owners": null,
+        "delegated_task": null
       },
       {
-        "id": "d598949e-41ac-4137-bbc5-3c255702c9dc",
-        "name": "User contributions to \"Forth Bridge illustrations 1886-1887 - 1\"",
-        "description": "",
-        "type": "crowdsourcing-task",
-        "subject": "urn:madoc:canvas:4",
-        "status": 2,
-        "status_text": "Submitted",
-        "state": {
-          "reviewTask": "95e6be57-e9f8-45e9-8f79-5baeb13a6e3a",
-          "revisionId": "f93ed448-f140-4923-8be7-ea73f5e68052"
-        },
-        "created_at": 1602511518867,
-        "parent_task": "cd441115-9725-40ff-a733-34dc09cc003d",
-        "parameters": [
-          "9cfeb2e1-1c8e-4984-b2e3-bfbc3aa7bfa6",
-          null,
-          "canvas"
-        ],
-        "creator_id": "urn:madoc:user:1",
-        "creator_name": "Madoc TS",
-        "assignee_id": "urn:madoc:user:1",
-        "assignee_is_service": false,
-        "assignee_name": "admin",
-        "context": [
-          "urn:madoc:site:1"
-        ],
-        "events": [
-          "madoc-ts.status.-1",
-          "madoc-ts.status.2",
-          "madoc-ts.status.3"
-        ],
-        "modified_at": 1602511519227,
-        "root_task": "4bacd0a4-0ccc-4100-8caa-39728ea309bb",
-        "subject_parent": "urn:madoc:manifest:2"
-      },
-      {
-        "id": "95e6be57-e9f8-45e9-8f79-5baeb13a6e3a",
-        "name": "Review of \"User contributions to \"Forth Bridge illustrations 1886-1887 - 1\"\"",
-        "description": "",
-        "type": "crowdsourcing-review",
-        "subject": "urn:madoc:canvas:4",
-        "status": 1,
-        "status_text": "accepted",
-        "state": {},
-        "created_at": 1602511519121,
-        "parent_task": "cd441115-9725-40ff-a733-34dc09cc003d",
-        "parameters": [
-          "d598949e-41ac-4137-bbc5-3c255702c9dc",
-          "canvas"
-        ],
-        "creator_id": "urn:madoc:user:undefined",
-        "creator_name": "Madoc TS",
-        "assignee_id": "urn:madoc:user:1",
-        "assignee_is_service": false,
-        "assignee_name": "admin",
-        "context": [
-          "urn:madoc:site:1"
-        ],
-        "events": [
-          "madoc-ts.created"
-        ],
-        "modified_at": 1602511519654,
-        "root_task": "4bacd0a4-0ccc-4100-8caa-39728ea309bb",
-        "subject_parent": "urn:madoc:manifest:2"
-      },
-      {
-        "id": "73f9ecf2-adf4-44a1-a9fc-cee29b2d3cd5",
-        "name": "Forth Bridge illustrations 1886-1887 - 2",
+        "id": "3040a02f-fff7-418f-baae-192d6b06d214",
+        "name": "Forth Bridge illustrations 1886-1887 - 13",
         "description": "",
         "type": "crowdsourcing-canvas-task",
-        "subject": "urn:madoc:canvas:5",
+        "subject": "urn:madoc:canvas:16",
         "status": 2,
         "status_text": "In progress",
         "state": {
           "approvalsRequired": 20
         },
-        "created_at": 1602511757198,
+        "created_at": 1602528715888,
         "parent_task": "8b734bdb-6cf6-4f08-9143-2e4e1c1034da",
         "parameters": [],
         "creator_id": "urn:madoc:user:undefined",
@@ -10119,94 +10162,30 @@
         "events": [
           "madoc-ts.status.3"
         ],
-        "modified_at": 1602511769713,
+        "modified_at": 1602528724185,
         "root_task": "4bacd0a4-0ccc-4100-8caa-39728ea309bb",
-        "subject_parent": null
+        "subject_parent": null,
+        "delegated_owners": null,
+        "delegated_task": null
       },
       {
-        "id": "de0b9412-45c9-4274-aa0c-2b92c188bb2a",
-        "name": "User contributions to \"Forth Bridge illustrations 1886-1887 - 2\"",
-        "description": "",
-        "type": "crowdsourcing-task",
-        "subject": "urn:madoc:canvas:5",
-        "status": 2,
-        "status_text": "Submitted",
-        "state": {
-          "reviewTask": "23970c35-9b87-488c-952c-556f7f78758a",
-          "revisionId": "2d10b877-fbe5-49ba-8da2-4e7cb93bc7cb"
-        },
-        "created_at": 1602511769270,
-        "parent_task": "73f9ecf2-adf4-44a1-a9fc-cee29b2d3cd5",
-        "parameters": [
-          "efb28da6-bd79-4537-99f9-c864bacde17f",
-          null,
-          "canvas"
-        ],
-        "creator_id": "urn:madoc:user:2",
-        "creator_name": "Madoc TS",
-        "assignee_id": "urn:madoc:user:2",
-        "assignee_is_service": false,
-        "assignee_name": "Reviewer",
-        "context": [
-          "urn:madoc:site:1"
-        ],
-        "events": [
-          "madoc-ts.status.-1",
-          "madoc-ts.status.2",
-          "madoc-ts.status.3"
-        ],
-        "modified_at": 1602511769579,
-        "root_task": "4bacd0a4-0ccc-4100-8caa-39728ea309bb",
-        "subject_parent": "urn:madoc:manifest:2"
-      },
-      {
-        "id": "23970c35-9b87-488c-952c-556f7f78758a",
-        "name": "Review of \"User contributions to \"Forth Bridge illustrations 1886-1887 - 2\"\"",
-        "description": "",
-        "type": "crowdsourcing-review",
-        "subject": "urn:madoc:canvas:5",
-        "status": 1,
-        "status_text": "accepted",
-        "state": {},
-        "created_at": 1602511769464,
-        "parent_task": "73f9ecf2-adf4-44a1-a9fc-cee29b2d3cd5",
-        "parameters": [
-          "de0b9412-45c9-4274-aa0c-2b92c188bb2a",
-          "canvas"
-        ],
-        "creator_id": "urn:madoc:user:undefined",
-        "creator_name": "Madoc TS",
-        "assignee_id": "urn:madoc:user:1",
-        "assignee_is_service": false,
-        "assignee_name": "admin",
-        "context": [
-          "urn:madoc:site:1"
-        ],
-        "events": [
-          "madoc-ts.created"
-        ],
-        "modified_at": 1602511770006,
-        "root_task": "4bacd0a4-0ccc-4100-8caa-39728ea309bb",
-        "subject_parent": "urn:madoc:manifest:2"
-      },
-      {
-        "id": "713e198e-67ae-4370-a5a6-3ff5e234a808",
-        "name": "Forth Bridge illustrations 1886-1887 - 3",
-        "description": "",
+        "id": "524c18f4-989e-4637-b62e-ac599274371f",
+        "name": "Forth Bridge illustrations 1886-1887 - 10",
+        "description": null,
         "type": "crowdsourcing-canvas-task",
-        "subject": "urn:madoc:canvas:6",
+        "subject": "urn:madoc:canvas:13",
         "status": 2,
         "status_text": "In progress",
         "state": {
           "approvalsRequired": 20
         },
-        "created_at": 1602511813318,
+        "created_at": 1602515694748,
         "parent_task": "8b734bdb-6cf6-4f08-9143-2e4e1c1034da",
         "parameters": [],
         "creator_id": "urn:madoc:user:undefined",
         "creator_name": "Madoc TS",
         "assignee_id": null,
-        "assignee_is_service": false,
+        "assignee_is_service": null,
         "assignee_name": null,
         "context": [
           "urn:madoc:site:1"
@@ -10214,26 +10193,28 @@
         "events": [
           "madoc-ts.status.3"
         ],
-        "modified_at": 1602511824692,
+        "modified_at": 1602515711208,
         "root_task": "4bacd0a4-0ccc-4100-8caa-39728ea309bb",
-        "subject_parent": null
+        "subject_parent": null,
+        "delegated_owners": null,
+        "delegated_task": null
       },
       {
-        "id": "95ceba1a-969c-4c12-ba5c-d7c4aa27e2a9",
-        "name": "User contributions to \"Forth Bridge illustrations 1886-1887 - 3\"",
+        "id": "c647fc79-6a20-4d11-95a0-df8d3135dc20",
+        "name": "User contributions to \"Forth Bridge illustrations 1886-1887 - 13\"",
         "description": "",
         "type": "crowdsourcing-task",
-        "subject": "urn:madoc:canvas:6",
+        "subject": "urn:madoc:canvas:16",
         "status": 2,
         "status_text": "Submitted",
         "state": {
-          "reviewTask": "30064a87-c2ab-47b5-a698-b9523d2f50db",
-          "revisionId": "e81c021e-5edd-4dcd-b575-e5eb48129020"
+          "reviewTask": "333f35eb-a68c-4f37-9409-680e5f058e0d",
+          "revisionId": "8e00ce33-6652-4881-8c58-b7106f0e5dff"
         },
-        "created_at": 1602511824152,
-        "parent_task": "713e198e-67ae-4370-a5a6-3ff5e234a808",
+        "created_at": 1602528723687,
+        "parent_task": "3040a02f-fff7-418f-baae-192d6b06d214",
         "parameters": [
-          "cbf005a6-af78-4b59-b784-dbd4ff47accb",
+          "f7f01f13-dad8-42da-8a5b-c5aefa3c8eb6",
           null,
           "canvas"
         ],
@@ -10250,29 +10231,101 @@
           "madoc-ts.status.2",
           "madoc-ts.status.3"
         ],
-        "modified_at": 1602511824524,
+        "modified_at": 1602528724026,
         "root_task": "4bacd0a4-0ccc-4100-8caa-39728ea309bb",
-        "subject_parent": "urn:madoc:manifest:2"
+        "subject_parent": "urn:madoc:manifest:2",
+        "delegated_owners": null,
+        "delegated_task": "333f35eb-a68c-4f37-9409-680e5f058e0d"
       },
       {
-        "id": "30064a87-c2ab-47b5-a698-b9523d2f50db",
-        "name": "Review of \"User contributions to \"Forth Bridge illustrations 1886-1887 - 3\"\"",
+        "id": "8b14259d-eb96-4c12-9d6a-4a1b6f8f1e68",
+        "name": "User contributions to \"Forth Bridge illustrations 1886-1887 - 10\"",
+        "description": null,
+        "type": "crowdsourcing-task",
+        "subject": "urn:madoc:canvas:13",
+        "status": 2,
+        "status_text": "Submitted",
+        "state": {
+          "reviewTask": "764b5265-a9d9-40c2-9b8c-362488e93da9",
+          "revisionId": "d0b4d32c-9982-4c65-9b98-c3e751ff3566"
+        },
+        "created_at": 1602515710883,
+        "parent_task": "524c18f4-989e-4637-b62e-ac599274371f",
+        "parameters": [
+          "90910e6f-ef13-4877-a297-e9f5e9c2bbf2",
+          null,
+          "canvas"
+        ],
+        "creator_id": "urn:madoc:user:1",
+        "creator_name": "Madoc TS",
+        "assignee_id": "urn:madoc:user:1",
+        "assignee_is_service": null,
+        "assignee_name": "admin",
+        "context": [
+          "urn:madoc:site:1"
+        ],
+        "events": [
+          "madoc-ts.status.-1",
+          "madoc-ts.status.2",
+          "madoc-ts.status.3"
+        ],
+        "modified_at": 1602515711096,
+        "root_task": "4bacd0a4-0ccc-4100-8caa-39728ea309bb",
+        "subject_parent": "urn:madoc:manifest:2",
+        "delegated_owners": null,
+        "delegated_task": "764b5265-a9d9-40c2-9b8c-362488e93da9"
+      },
+      {
+        "id": "333f35eb-a68c-4f37-9409-680e5f058e0d",
+        "name": "Review of \"User contributions to \"Forth Bridge illustrations 1886-1887 - 13\"\"",
         "description": "",
         "type": "crowdsourcing-review",
-        "subject": "urn:madoc:canvas:6",
+        "subject": "urn:madoc:canvas:16",
         "status": 1,
         "status_text": "accepted",
         "state": {},
-        "created_at": 1602511824378,
-        "parent_task": "713e198e-67ae-4370-a5a6-3ff5e234a808",
+        "created_at": 1602528723933,
+        "parent_task": "3040a02f-fff7-418f-baae-192d6b06d214",
         "parameters": [
-          "95ceba1a-969c-4c12-ba5c-d7c4aa27e2a9",
+          "c647fc79-6a20-4d11-95a0-df8d3135dc20",
+          "canvas"
+        ],
+        "creator_id": "urn:madoc:user:undefined",
+        "creator_name": "Madoc TS",
+        "assignee_id": "urn:madoc:user:2",
+        "assignee_is_service": false,
+        "assignee_name": "Reviewer",
+        "context": [
+          "urn:madoc:site:1"
+        ],
+        "events": [
+          "madoc-ts.created"
+        ],
+        "modified_at": 1602528724581,
+        "root_task": "4bacd0a4-0ccc-4100-8caa-39728ea309bb",
+        "subject_parent": "urn:madoc:manifest:2",
+        "delegated_owners": null,
+        "delegated_task": null
+      },
+      {
+        "id": "764b5265-a9d9-40c2-9b8c-362488e93da9",
+        "name": "Review of \"User contributions to \"Forth Bridge illustrations 1886-1887 - 10\"\"",
+        "description": null,
+        "type": "crowdsourcing-review",
+        "subject": "urn:madoc:canvas:13",
+        "status": 2,
+        "status_text": "New submission",
+        "state": {},
+        "created_at": 1602515711029,
+        "parent_task": "524c18f4-989e-4637-b62e-ac599274371f",
+        "parameters": [
+          "8b14259d-eb96-4c12-9d6a-4a1b6f8f1e68",
           "canvas"
         ],
         "creator_id": "urn:madoc:user:undefined",
         "creator_name": "Madoc TS",
         "assignee_id": "urn:madoc:user:1",
-        "assignee_is_service": false,
+        "assignee_is_service": null,
         "assignee_name": "admin",
         "context": [
           "urn:madoc:site:1"
@@ -10280,9 +10333,260 @@
         "events": [
           "madoc-ts.created"
         ],
-        "modified_at": 1602511825002,
+        "modified_at": 1602515780460,
         "root_task": "4bacd0a4-0ccc-4100-8caa-39728ea309bb",
-        "subject_parent": "urn:madoc:manifest:2"
+        "subject_parent": "urn:madoc:manifest:2",
+        "delegated_owners": null,
+        "delegated_task": null
+      },
+      {
+        "id": "73f9ecf2-adf4-44a1-a9fc-cee29b2d3cd5",
+        "name": "Forth Bridge illustrations 1886-1887 - 2",
+        "description": null,
+        "type": "crowdsourcing-canvas-task",
+        "subject": "urn:madoc:canvas:5",
+        "status": 2,
+        "status_text": "In progress",
+        "state": {
+          "approvalsRequired": 20
+        },
+        "created_at": 1602511757198,
+        "parent_task": "8b734bdb-6cf6-4f08-9143-2e4e1c1034da",
+        "parameters": [],
+        "creator_id": "urn:madoc:user:undefined",
+        "creator_name": "Madoc TS",
+        "assignee_id": null,
+        "assignee_is_service": null,
+        "assignee_name": null,
+        "context": [
+          "urn:madoc:site:1"
+        ],
+        "events": [
+          "madoc-ts.status.3"
+        ],
+        "modified_at": 1602511769713,
+        "root_task": "4bacd0a4-0ccc-4100-8caa-39728ea309bb",
+        "subject_parent": null,
+        "delegated_owners": null,
+        "delegated_task": null
+      },
+      {
+        "id": "5a645cc2-655f-49eb-990a-9c2ed2cdad5c",
+        "name": "User contributions to \"Forth Bridge illustrations 1886-1887 - 10\"",
+        "description": null,
+        "type": "crowdsourcing-task",
+        "subject": "urn:madoc:canvas:13",
+        "status": 1,
+        "status_text": "In progress",
+        "state": {
+          "revisionId": "c59dd317-0333-47c5-8161-044c15fda5da"
+        },
+        "created_at": 1602515723373,
+        "parent_task": "524c18f4-989e-4637-b62e-ac599274371f",
+        "parameters": [
+          "90910e6f-ef13-4877-a297-e9f5e9c2bbf2",
+          null,
+          "canvas"
+        ],
+        "creator_id": "urn:madoc:user:1",
+        "creator_name": "Madoc TS",
+        "assignee_id": "urn:madoc:user:1",
+        "assignee_is_service": null,
+        "assignee_name": "admin",
+        "context": [
+          "urn:madoc:site:1"
+        ],
+        "events": [
+          "madoc-ts.status.-1",
+          "madoc-ts.status.2",
+          "madoc-ts.status.3"
+        ],
+        "modified_at": 1602515723418,
+        "root_task": "4bacd0a4-0ccc-4100-8caa-39728ea309bb",
+        "subject_parent": "urn:madoc:manifest:2",
+        "delegated_owners": null,
+        "delegated_task": null
+      },
+      {
+        "id": "c419094c-4337-47d1-a013-4319437f8eb6",
+        "name": "User contributions to \"Forth Bridge illustrations 1886-1887 - 10\"",
+        "description": null,
+        "type": "crowdsourcing-task",
+        "subject": "urn:madoc:canvas:13",
+        "status": 2,
+        "status_text": "Submitted",
+        "state": {
+          "reviewTask": "764b5265-a9d9-40c2-9b8c-362488e93da9",
+          "revisionId": "52470b9b-b102-4e0b-a232-0d7c855880bd"
+        },
+        "created_at": 1602515780256,
+        "parent_task": "524c18f4-989e-4637-b62e-ac599274371f",
+        "parameters": [
+          "90910e6f-ef13-4877-a297-e9f5e9c2bbf2",
+          null,
+          "canvas"
+        ],
+        "creator_id": "urn:madoc:user:2",
+        "creator_name": "Madoc TS",
+        "assignee_id": "urn:madoc:user:2",
+        "assignee_is_service": null,
+        "assignee_name": "Reviewer",
+        "context": [
+          "urn:madoc:site:1"
+        ],
+        "events": [
+          "madoc-ts.status.-1",
+          "madoc-ts.status.2",
+          "madoc-ts.status.3"
+        ],
+        "modified_at": 1602515780406,
+        "root_task": "4bacd0a4-0ccc-4100-8caa-39728ea309bb",
+        "subject_parent": "urn:madoc:manifest:2",
+        "delegated_owners": null,
+        "delegated_task": "764b5265-a9d9-40c2-9b8c-362488e93da9"
+      },
+      {
+        "id": "030449ef-b1f5-4a6a-9bc6-db2867b5c173",
+        "name": "User contributions to \"Forth Bridge illustrations 1886-1887 - 10\"",
+        "description": null,
+        "type": "crowdsourcing-task",
+        "subject": "urn:madoc:canvas:13",
+        "status": 1,
+        "status_text": "In progress",
+        "state": {
+          "revisionId": "3fbb40bc-245b-4c79-84e9-c01950b443a3"
+        },
+        "created_at": 1602515790976,
+        "parent_task": "524c18f4-989e-4637-b62e-ac599274371f",
+        "parameters": [
+          "90910e6f-ef13-4877-a297-e9f5e9c2bbf2",
+          null,
+          "canvas"
+        ],
+        "creator_id": "urn:madoc:user:2",
+        "creator_name": "Madoc TS",
+        "assignee_id": "urn:madoc:user:2",
+        "assignee_is_service": null,
+        "assignee_name": "Reviewer",
+        "context": [
+          "urn:madoc:site:1"
+        ],
+        "events": [
+          "madoc-ts.status.-1",
+          "madoc-ts.status.2",
+          "madoc-ts.status.3"
+        ],
+        "modified_at": 1602515791032,
+        "root_task": "4bacd0a4-0ccc-4100-8caa-39728ea309bb",
+        "subject_parent": "urn:madoc:manifest:2",
+        "delegated_owners": null,
+        "delegated_task": null
+      },
+      {
+        "id": "713e198e-67ae-4370-a5a6-3ff5e234a808",
+        "name": "Forth Bridge illustrations 1886-1887 - 3",
+        "description": null,
+        "type": "crowdsourcing-canvas-task",
+        "subject": "urn:madoc:canvas:6",
+        "status": 2,
+        "status_text": "In progress",
+        "state": {
+          "approvalsRequired": 20
+        },
+        "created_at": 1602511813318,
+        "parent_task": "8b734bdb-6cf6-4f08-9143-2e4e1c1034da",
+        "parameters": [],
+        "creator_id": "urn:madoc:user:undefined",
+        "creator_name": "Madoc TS",
+        "assignee_id": null,
+        "assignee_is_service": null,
+        "assignee_name": null,
+        "context": [
+          "urn:madoc:site:1"
+        ],
+        "events": [
+          "madoc-ts.status.3"
+        ],
+        "modified_at": 1602511824692,
+        "root_task": "4bacd0a4-0ccc-4100-8caa-39728ea309bb",
+        "subject_parent": null,
+        "delegated_owners": null,
+        "delegated_task": null
+      },
+      {
+        "id": "dcf9cc70-1481-4e08-a914-51411651484b",
+        "name": "User contributions to \"Forth Bridge illustrations 1886-1887 - 10\"",
+        "description": null,
+        "type": "crowdsourcing-task",
+        "subject": "urn:madoc:canvas:13",
+        "status": 2,
+        "status_text": "Submitted",
+        "state": {
+          "reviewTask": "764b5265-a9d9-40c2-9b8c-362488e93da9",
+          "revisionId": "2747f467-4e13-4b33-9233-f3ec8b24a456"
+        },
+        "created_at": 1602515820333,
+        "parent_task": "524c18f4-989e-4637-b62e-ac599274371f",
+        "parameters": [
+          "90910e6f-ef13-4877-a297-e9f5e9c2bbf2",
+          null,
+          "canvas"
+        ],
+        "creator_id": "urn:madoc:user:3",
+        "creator_name": "Madoc TS",
+        "assignee_id": "urn:madoc:user:3",
+        "assignee_is_service": null,
+        "assignee_name": "Transcriber",
+        "context": [
+          "urn:madoc:site:1"
+        ],
+        "events": [
+          "madoc-ts.status.-1",
+          "madoc-ts.status.2",
+          "madoc-ts.status.3"
+        ],
+        "modified_at": 1602515820514,
+        "root_task": "4bacd0a4-0ccc-4100-8caa-39728ea309bb",
+        "subject_parent": "urn:madoc:manifest:2",
+        "delegated_owners": null,
+        "delegated_task": "764b5265-a9d9-40c2-9b8c-362488e93da9"
+      },
+      {
+        "id": "cec4a536-71d1-4496-9dd2-a6124549edce",
+        "name": "User contributions to \"Forth Bridge illustrations 1886-1887 - 10\"",
+        "description": null,
+        "type": "crowdsourcing-task",
+        "subject": "urn:madoc:canvas:13",
+        "status": 1,
+        "status_text": "In progress",
+        "state": {
+          "revisionId": "d4485230-83db-4cdf-9dcd-37fde817791d"
+        },
+        "created_at": 1602515832434,
+        "parent_task": "524c18f4-989e-4637-b62e-ac599274371f",
+        "parameters": [
+          "90910e6f-ef13-4877-a297-e9f5e9c2bbf2",
+          null,
+          "canvas"
+        ],
+        "creator_id": "urn:madoc:user:3",
+        "creator_name": "Madoc TS",
+        "assignee_id": "urn:madoc:user:3",
+        "assignee_is_service": null,
+        "assignee_name": "Transcriber",
+        "context": [
+          "urn:madoc:site:1"
+        ],
+        "events": [
+          "madoc-ts.status.-1",
+          "madoc-ts.status.2",
+          "madoc-ts.status.3"
+        ],
+        "modified_at": 1602515832471,
+        "root_task": "4bacd0a4-0ccc-4100-8caa-39728ea309bb",
+        "subject_parent": "urn:madoc:manifest:2",
+        "delegated_owners": null,
+        "delegated_task": null
       },
       {
         "id": "5e256f84-2a5a-4f0e-a370-eabb980071eb",
@@ -10309,7 +10613,9 @@
         "events": null,
         "modified_at": 1602182879249,
         "root_task": null,
-        "subject_parent": null
+        "subject_parent": null,
+        "delegated_owners": null,
+        "delegated_task": null
       },
       {
         "id": "fb29164f-2172-47b8-a047-411ffcfbc92e",
@@ -10336,7 +10642,9 @@
         "events": null,
         "modified_at": 1602182898943,
         "root_task": null,
-        "subject_parent": null
+        "subject_parent": null,
+        "delegated_owners": null,
+        "delegated_task": null
       },
       {
         "id": "4fe7bc58-01a3-4146-a348-36657df01c4c",
@@ -10363,7 +10671,9 @@
         "events": null,
         "modified_at": 1602182918951,
         "root_task": null,
-        "subject_parent": null
+        "subject_parent": null,
+        "delegated_owners": null,
+        "delegated_task": null
       },
       {
         "id": "95c5c637-e07e-4fa7-ac2a-ada129a8019a",
@@ -10390,7 +10700,9 @@
         "events": null,
         "modified_at": 1602182936413,
         "root_task": null,
-        "subject_parent": null
+        "subject_parent": null,
+        "delegated_owners": null,
+        "delegated_task": null
       }
     ]
   },
@@ -10407,6 +10719,283 @@
     [],
     [],
     [
+      {
+        "id": "73bc847e-1fa6-497b-8dee-7e5db317f477",
+        "structure": {
+          "id": "6dc4fb00-12e3-4203-8179-635633aa0b99",
+          "type": "choice",
+          "label": "Project with model",
+          "items": [
+            {
+              "id": "bc6ff090-a935-4040-bb7f-3fa72ce40df8",
+              "type": "model",
+              "label": "Add a description",
+              "fields": [
+                "description"
+              ]
+            }
+          ]
+        },
+        "document": {
+          "id": "24130af3-d919-42fd-92f8-2909f7101f86",
+          "type": "entity",
+          "label": "Untitled document",
+          "properties": {
+            "description": [
+              {
+                "id": "4fdd7adb-662d-4caf-8409-cecf8c6c55e9",
+                "type": "text-field",
+                "label": "description",
+                "value": "Contribution from admin",
+                "revises": "b0b8b37f-c828-45d2-9cf1-aad5efb87ee1",
+                "revision": "37eeac7a-c1a1-4db6-a09a-e7578e8db7f3",
+                "multiline": true
+              },
+              {
+                "id": "b0b8b37f-c828-45d2-9cf1-aad5efb87ee1",
+                "type": "text-field",
+                "label": "description",
+                "value": "",
+                "multiline": true
+              }
+            ]
+          }
+        },
+        "target": [
+          {
+            "id": "urn:madoc:collection:139",
+            "type": "Collection"
+          },
+          {
+            "id": "urn:madoc:manifest:2",
+            "type": "Manifest"
+          },
+          {
+            "id": "urn:madoc:canvas:7",
+            "type": "Canvas"
+          }
+        ],
+        "derivedFrom": "db63b310-748c-4d86-a481-a32d90eca325",
+        "revisions": [
+          {
+            "structureId": "bc6ff090-a935-4040-bb7f-3fa72ce40df8",
+            "approved": false,
+            "label": "Add a description",
+            "id": "37eeac7a-c1a1-4db6-a09a-e7578e8db7f3",
+            "fields": [
+              "description"
+            ],
+            "status": "submitted",
+            "revises": null,
+            "authors": [
+              "urn:madoc:user:1"
+            ]
+          }
+        ],
+        "contributors": {
+          "urn:madoc:user:1": {
+            "id": "urn:madoc:user:1",
+            "type": "Person",
+            "name": "admin"
+          }
+        }
+      },
+      {
+        "id": "90910e6f-ef13-4877-a297-e9f5e9c2bbf2",
+        "structure": {
+          "id": "6dc4fb00-12e3-4203-8179-635633aa0b99",
+          "type": "choice",
+          "label": "Project with model",
+          "items": [
+            {
+              "id": "bc6ff090-a935-4040-bb7f-3fa72ce40df8",
+              "type": "model",
+              "label": "Add a description",
+              "fields": [
+                "description"
+              ]
+            }
+          ]
+        },
+        "document": {
+          "id": "b1f2c076-6a81-47b5-9e9c-d3b6743847f9",
+          "type": "entity",
+          "label": "Untitled document",
+          "properties": {
+            "description": [
+              {
+                "id": "a66ec95c-a541-422f-a985-f0eb2a877ad2",
+                "type": "text-field",
+                "label": "description",
+                "value": "Transcriber created this (save)",
+                "revises": "bd09cdc6-e70c-4d9d-8adc-db5617efbdd7",
+                "revision": "d4485230-83db-4cdf-9dcd-37fde817791d",
+                "multiline": true
+              },
+              {
+                "id": "96705551-9292-42c2-bfcf-735e83d69248",
+                "type": "text-field",
+                "label": "description",
+                "value": "Reviewer created this (save)",
+                "revises": "bd09cdc6-e70c-4d9d-8adc-db5617efbdd7",
+                "revision": "3fbb40bc-245b-4c79-84e9-c01950b443a3",
+                "multiline": true
+              },
+              {
+                "id": "3a9813c0-0708-44bd-9e2c-18b922496581",
+                "type": "text-field",
+                "label": "description",
+                "value": "Reviewer created this (submit)",
+                "revises": "bd09cdc6-e70c-4d9d-8adc-db5617efbdd7",
+                "revision": "52470b9b-b102-4e0b-a232-0d7c855880bd",
+                "multiline": true
+              },
+              {
+                "id": "bf1768e1-de7a-4f67-a0d8-f0298d6832cb",
+                "type": "text-field",
+                "label": "description",
+                "value": "Admin created this submission (saved)",
+                "revises": "bd09cdc6-e70c-4d9d-8adc-db5617efbdd7",
+                "revision": "c59dd317-0333-47c5-8161-044c15fda5da",
+                "multiline": true
+              },
+              {
+                "id": "c4e50f22-21e5-43c4-97b0-28249159b9de",
+                "type": "text-field",
+                "label": "description",
+                "value": "Admin created this submission (submit)",
+                "revises": "bd09cdc6-e70c-4d9d-8adc-db5617efbdd7",
+                "revision": "d0b4d32c-9982-4c65-9b98-c3e751ff3566",
+                "multiline": true
+              },
+              {
+                "id": "bd09cdc6-e70c-4d9d-8adc-db5617efbdd7",
+                "type": "text-field",
+                "label": "description",
+                "value": "",
+                "multiline": true
+              },
+              {
+                "id": "3ac7f4bd-ea5d-40e7-9394-dbe16e467402",
+                "type": "text-field",
+                "label": "description",
+                "value": "Transcriber created this (submit)",
+                "revises": "bd09cdc6-e70c-4d9d-8adc-db5617efbdd7",
+                "revision": "2747f467-4e13-4b33-9233-f3ec8b24a456",
+                "multiline": true
+              }
+            ]
+          }
+        },
+        "target": [
+          {
+            "id": "urn:madoc:collection:139",
+            "type": "Collection"
+          },
+          {
+            "id": "urn:madoc:manifest:2",
+            "type": "Manifest"
+          },
+          {
+            "id": "urn:madoc:canvas:13",
+            "type": "Canvas"
+          }
+        ],
+        "derivedFrom": "db63b310-748c-4d86-a481-a32d90eca325",
+        "revisions": [
+          {
+            "structureId": "bc6ff090-a935-4040-bb7f-3fa72ce40df8",
+            "approved": false,
+            "label": "Add a description",
+            "id": "52470b9b-b102-4e0b-a232-0d7c855880bd",
+            "fields": [
+              "description"
+            ],
+            "status": "submitted",
+            "revises": null,
+            "authors": [
+              "urn:madoc:user:2"
+            ]
+          },
+          {
+            "structureId": "bc6ff090-a935-4040-bb7f-3fa72ce40df8",
+            "approved": false,
+            "label": "Add a description",
+            "id": "c59dd317-0333-47c5-8161-044c15fda5da",
+            "fields": [
+              "description"
+            ],
+            "status": "draft",
+            "revises": null,
+            "authors": [
+              "urn:madoc:user:1"
+            ]
+          },
+          {
+            "structureId": "bc6ff090-a935-4040-bb7f-3fa72ce40df8",
+            "approved": false,
+            "label": "Add a description",
+            "id": "d4485230-83db-4cdf-9dcd-37fde817791d",
+            "fields": [
+              "description"
+            ],
+            "status": "draft",
+            "revises": null,
+            "authors": [
+              "urn:madoc:user:3"
+            ]
+          },
+          {
+            "structureId": "bc6ff090-a935-4040-bb7f-3fa72ce40df8",
+            "approved": false,
+            "label": "Add a description",
+            "id": "2747f467-4e13-4b33-9233-f3ec8b24a456",
+            "fields": [
+              "description"
+            ],
+            "status": "submitted",
+            "revises": null,
+            "authors": [
+              "urn:madoc:user:3"
+            ]
+          },
+          {
+            "structureId": "bc6ff090-a935-4040-bb7f-3fa72ce40df8",
+            "approved": false,
+            "label": "Add a description",
+            "id": "d0b4d32c-9982-4c65-9b98-c3e751ff3566",
+            "fields": [
+              "description"
+            ],
+            "status": "submitted",
+            "revises": null,
+            "authors": [
+              "urn:madoc:user:1"
+            ]
+          },
+          {
+            "structureId": "bc6ff090-a935-4040-bb7f-3fa72ce40df8",
+            "approved": false,
+            "label": "Add a description",
+            "id": "3fbb40bc-245b-4c79-84e9-c01950b443a3",
+            "fields": [
+              "description"
+            ],
+            "status": "draft",
+            "revises": null,
+            "authors": [
+              "urn:madoc:user:2"
+            ]
+          }
+        ],
+        "contributors": {
+          "urn:madoc:user:1": {
+            "id": "urn:madoc:user:1",
+            "type": "Person",
+            "name": "admin"
+          }
+        }
+      },
       {
         "id": "9cfeb2e1-1c8e-4984-b2e3-bfbc3aa7bfa6",
         "structure": {
@@ -10428,17 +11017,7 @@
           "id": "961568b0-c753-41d6-9649-2f4b83a5ca1c",
           "type": "entity",
           "label": "Untitled document",
-          "properties": {
-            "description": [
-              {
-                "id": "589c08fa-cb27-4b5b-a6f6-850f2ca99681",
-                "type": "text-field",
-                "label": "description",
-                "value": "",
-                "multiline": true
-              }
-            ]
-          }
+          "properties": {}
         },
         "target": [
           {
@@ -10455,6 +11034,22 @@
           }
         ],
         "derivedFrom": "db63b310-748c-4d86-a481-a32d90eca325",
+        "revisions": [
+          {
+            "structureId": "bc6ff090-a935-4040-bb7f-3fa72ce40df8",
+            "approved": false,
+            "label": "Add a description",
+            "id": "1f1ede5e-2291-4d8d-abaf-093ef59d53c4",
+            "fields": [
+              "description"
+            ],
+            "status": "submitted",
+            "revises": null,
+            "authors": [
+              "urn:madoc:user:3"
+            ]
+          }
+        ],
         "contributors": {
           "urn:madoc:user:3": {
             "id": "urn:madoc:user:3",
@@ -10572,6 +11167,87 @@
             "id": "urn:madoc:user:2",
             "type": "Person",
             "name": "Reviewer"
+          }
+        }
+      },
+      {
+        "id": "f7f01f13-dad8-42da-8a5b-c5aefa3c8eb6",
+        "structure": {
+          "id": "6dc4fb00-12e3-4203-8179-635633aa0b99",
+          "type": "choice",
+          "label": "Project with model",
+          "items": [
+            {
+              "id": "bc6ff090-a935-4040-bb7f-3fa72ce40df8",
+              "type": "model",
+              "label": "Add a description",
+              "fields": [
+                "description"
+              ]
+            }
+          ]
+        },
+        "document": {
+          "id": "e1d61f98-7f4b-4f4e-8d95-eade04645e92",
+          "type": "entity",
+          "label": "Untitled document",
+          "properties": {
+            "description": [
+              {
+                "id": "297ac5ac-3b8c-4046-9f5a-b39e91947866",
+                "type": "text-field",
+                "label": "description",
+                "value": "",
+                "multiline": true
+              },
+              {
+                "id": "d4501817-891a-4bf0-af4f-88f23d0b43fa",
+                "type": "text-field",
+                "label": "description",
+                "value": "FIND THIS",
+                "revises": "297ac5ac-3b8c-4046-9f5a-b39e91947866",
+                "revision": "8e00ce33-6652-4881-8c58-b7106f0e5dff",
+                "multiline": true
+              }
+            ]
+          }
+        },
+        "target": [
+          {
+            "id": "urn:madoc:collection:139",
+            "type": "Collection"
+          },
+          {
+            "id": "urn:madoc:manifest:2",
+            "type": "Manifest"
+          },
+          {
+            "id": "urn:madoc:canvas:16",
+            "type": "Canvas"
+          }
+        ],
+        "derivedFrom": "db63b310-748c-4d86-a481-a32d90eca325",
+        "revisions": [
+          {
+            "structureId": "bc6ff090-a935-4040-bb7f-3fa72ce40df8",
+            "approved": false,
+            "label": "Add a description",
+            "id": "8e00ce33-6652-4881-8c58-b7106f0e5dff",
+            "fields": [
+              "description"
+            ],
+            "status": "submitted",
+            "revises": null,
+            "authors": [
+              "urn:madoc:user:3"
+            ]
+          }
+        ],
+        "contributors": {
+          "urn:madoc:user:3": {
+            "id": "urn:madoc:user:3",
+            "type": "Person",
+            "name": "Transcriber"
           }
         }
       }
