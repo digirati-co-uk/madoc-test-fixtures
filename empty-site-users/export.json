@@ -11017,7 +11017,17 @@
           "id": "961568b0-c753-41d6-9649-2f4b83a5ca1c",
           "type": "entity",
           "label": "Untitled document",
-          "properties": {}
+          "properties": {
+            "description": [
+              {
+                "id": "589c08fa-cb27-4b5b-a6f6-850f2ca99681",
+                "type": "text-field",
+                "label": "description",
+                "value": "",
+                "multiline": true
+              }
+            ]
+          }
         },
         "target": [
           {
